@@ -1,0 +1,32 @@
+body {
+	background-color: gray
+}
+h1, h2 {
+	text-align: center;
+	text-decoration: underline; /*How do I make this black?*/
+}
+p {
+	text-align: center;
+	color: white
+}
+h1, h2 {
+	color: darkblue
+}
+ul {
+	text-align: center;
+}
+ol {
+	text-align: center;
+}
+ul, ol {
+	color: white
+}
+.sechead {
+	text-align: center;
+}
+.workexp {
+	text-align: center;
+}
+body {
+	border: black dotted ;
+}

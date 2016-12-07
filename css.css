@@ -7,26 +7,98 @@ h1, h2 {
 }
 p {
 	text-align: center;
-	color: white
+	color: white;
 }
 h1, h2 {
-	color: darkblue
+	color: rgb(0, 255, 255);
 }
 ul {
-	text-align: center;
+	 position:relative;
+  display: inline-block;  
+  list-style: none;
+  width:100%;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 ol {
-	text-align: center;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 ul, ol {
 	color: white
 }
-.sechead {
+.head {
+	color: blue;
+}
+.about {
 	text-align: center;
+	border: solid black;
+	background-image: url(images/flag.jpg);
+	height: 150px;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
 }
 .workexp {
+	border: solid black;
+}
+.workexphead {
 	text-align: center;
+	color: yellow;
+	text-decoration: underline;
 }
-body {
-	border: black dotted ;
+.workexpsechead {
+	text-decoration: underline;
+	color: red;
 }
+.education {
+	border: solid black;
+	background-image: url(images/flag.jpg);
+	height: 150px;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+}
+.skills {
+	border: solid black;
+	background-image: url(images/flag.jpg);
+	height: 600px;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+}
+.skillssechead {
+	text-decoration: underline;
+	color: yellow;
+}
+.sechead {
+	text-align: center;
+	text-decoration: underline;
+}
+.paralex {
+	background-image: url(images/flag.jpg);
+	height: 550px;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+}
+nav {
+	border: .025px solid black;
+	background-color: green;
+	margin: 0px 200px 0px 200px
+}
+nav ul {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+nav li {
+  display: inline;
+  padding: 5px 10px;
+}
+nav a:link, nav a:visited {
+  color: #ff8300;
+  border-bottom: none;
+  font-weight: bold;
+}
+li {
+	color: white;
+}
+

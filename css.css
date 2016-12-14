@@ -36,7 +36,7 @@ ul, ol {
 	text-align: center;
 	border: solid black;
 	background-image: url(images/flag.jpg);
-	height: 150px;
+	height: auto;
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 }
@@ -55,14 +55,15 @@ ul, ol {
 .education {
 	border: solid black;
 	background-image: url(images/flag.jpg);
-	height: 150px;
+	height: auto;
+
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 }
 .skills {
 	border: solid black;
 	background-image: url(images/flag.jpg);
-	height: 600px;
+	height: auto;
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 }
@@ -76,13 +77,13 @@ ul, ol {
 }
 .paralex {
 	background-image: url(images/flag.jpg);
-	height: 550px;
+	height: auto;
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 }
 nav {
-	border: .025px solid black;
-	background-color: green;
+	border: .025px solid red;
+	background-color: lightblue;
 	margin: 0px 200px 0px 200px
 }
 nav ul {
@@ -94,11 +95,16 @@ nav li {
   padding: 5px 10px;
 }
 nav a:link, nav a:visited {
-  color: #ff8300;
+  color: blue
   border-bottom: none;
   font-weight: bold;
 }
 li {
 	color: white;
 }
-
+@media screen and (max-width: 480px) {
+	.nav {
+		display: none;
+	}
+}
+	
